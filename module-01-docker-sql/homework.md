@@ -14,7 +14,7 @@ the output would be like this :
 <img width="1249" height="342" alt="image" src="https://github.com/user-attachments/assets/0c7d116f-be83-48c1-ac24-002f1c76015e" >
 
 <br>
-the output says "pip 25.3 from /usr/local/lib/python3.13/site-packages/pip (python 3.13)". so **the answer is 25.3 (a)**
+the output says "pip 25.3 from /usr/local/lib/python3.13/site-packages/pip (python 3.13)". so <b>the answer is 25.3 (a)</b>
 
 # QUESTION 2
 
