@@ -20,7 +20,7 @@ the output says "pip 25.3 from /usr/local/lib/python3.13/site-packages/pip (pyth
 
 
 # QUESTION 3
-For the trips in November 2025, how many trips had a trip_distance of less than or equal to 1 mile? (1 point)
+For the trips in November 2025, how many trips had a trip_distance of less than or equal to 1 mile? <br>
 a. 7,853 <br>
 b. 8,007 <br>
 c. 8,254 <br>
