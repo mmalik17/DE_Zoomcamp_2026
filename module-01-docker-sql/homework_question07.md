@@ -14,7 +14,7 @@ e. terraform import, terraform apply -y, terraform rm <br>
 ### ANSWER
 
 1) download and setup need "init" statement
-2) Generating and executing need "apply" statement
+2) Generating and executing need "apply" statement.  By default, apply asks for a manual "yes" confirmation. The auto-approve has a function to skip that confirmation prompt and made the execution quicker
 3) Removing resource need "destroy" statement
    
-so, the answer is (d) terraform init, terraform apply -auto-approve, terraform destroy
+so, the answer is (d) : terraform init, terraform apply -auto-approve, terraform destroy
