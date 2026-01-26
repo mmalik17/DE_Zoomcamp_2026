@@ -11,7 +11,7 @@ c. terraform init, terraform run -auto-approve, terraform destroy <br>
 d. terraform init, terraform apply -auto-approve, terraform destroy <br>
 e. terraform import, terraform apply -y, terraform rm <br>
 
-# ANSWER
+### ANSWER
 
 1) download and setup need "init" statement
 2) Generating and executing need "apply" statement
