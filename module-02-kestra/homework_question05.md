@@ -1,9 +1,9 @@
 # Question 5
-How many rows are there for the Yellow Taxi data for the March 2021 CSV file? (1 point)
-a. 1,428,092
-b. 706,911
-c. 1,925,152
-d. 2,561,031
+How many rows are there for the Yellow Taxi data for the March 2021 CSV file? (1 point) <br>
+a. 1,428,092 <br> 
+b. 706,911 <br>
+c. 1,925,152 <br>
+d. 2,561,031 <br>
 
 # Answer
 For fetching the data for year 2021, we need to modify a little bit of the 04_postgres_taxi.yaml file to add 2021 year input
