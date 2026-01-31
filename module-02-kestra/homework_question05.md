@@ -26,11 +26,15 @@ After:
 ```
 
 Then, we can execute by using this input: <br>
-<img width="655" height="383" alt="image" src="https://github.com/user-attachments/assets/8b7a29fa-e9b8-41eb-a5e3-0117df30a849" />
+ <br>
+<p align="center">
+<img width="655" height="383" alt="image" src="https://github.com/user-attachments/assets/8b7a29fa-e9b8-41eb-a5e3-0117df30a849" /></p>
 <br>
 
 After execute, go to metrics tab, and you will see the number of rows <br>
-<img width="659" height="287" alt="image" src="https://github.com/user-attachments/assets/6d2b2443-0e62-4a90-aa79-bcd99a8471a8" />
+ <br>
+<p align="center">
+<img width="659" height="287" alt="image" src="https://github.com/user-attachments/assets/6d2b2443-0e62-4a90-aa79-bcd99a8471a8" /></p>
 <br>
 
 From image above, we can conclude that the table has <b> 1,925,152 rows (c) </b>
