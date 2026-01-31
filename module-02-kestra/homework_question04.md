@@ -17,10 +17,10 @@ Use input below to execute the workflow  : <br>
 </p>
    <br>
 Notes for choosing the time for backfill input: <br>
-At workflow, i set the cron schedule "0 2 1 * *", so it will run every month at the first day on 02.00 a.m  <br>
+At workflow, i set the cron schedule <b> "00 03 02 * *" </b>, so it will run every month at the second day of the month on 03.00 a.m  <br>
 Because we need to run from Jan 2020 to Dec 2020, so...  <br>
-- the start time of backfill input should be set before 2020-01-01 02:00:00, so i set it on 2020-01-01 00:00:00 <br>
-- the end time of backfill input should be set after 2020-12-01 02:00:00, so i set it on 2020-12-03 00:00:00
+- the start time of backfill input should be set before 2020-01-02 03:00:00, so i set it on 2020-01-01 00:00:00 <br>
+- the end time of backfill input should be set after 2020-12-02 03:00:00, so i set it on 2020-12-03 00:00:00
 Then, click execute <br>
 <br>
 3. Login to PgAdmin that run on localhost:8085 <br>
