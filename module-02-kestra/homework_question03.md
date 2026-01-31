@@ -25,7 +25,7 @@ Then, click execute <br>
 4. Check whether the table contains data from january 2020 to december 2020 by using the query shown below: <br>
 <br>
 <p align="center">
-<img width="866" height="611" alt="image" src="https://github.com/user-attachments/assets/3ef7521d-5155-470b-b365-84b5bec5b901" /> </p>
+<img width="600" height="411" alt="image" src="https://github.com/user-attachments/assets/3ef7521d-5155-470b-b365-84b5bec5b901" /> </p>
 <br>
 5. If the output is like above, you can use query below to calculate the total rows inserted <br>
 <br>
