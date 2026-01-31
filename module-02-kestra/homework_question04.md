@@ -16,12 +16,12 @@ Use input below to execute the workflow  : <br>
 <img width="600" height="400" alt="image" align='middle' src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
 </p>
    <br>
-Notes for choosing the time for backfill input: <br>
+<b> Notes for choosing the time for backfill input: </b>  <br>
 At workflow, i set the cron schedule <b> "00 03 02 * *" </b>, so it will run every month at the second day of the month on 03.00 a.m  <br>
+<br>
 Because we need to run from Jan 2020 to Dec 2020, so...  <br>
 - the start time of backfill input should be set before 2020-01-02 03:00:00, so i set it on 2020-01-01 00:00:00 <br>
-- the end time of backfill input should be set after 2020-12-02 03:00:00, so i set it on 2020-12-03 00:00:00
-Then, click execute <br>
+- the end time of backfill input should be set after 2020-12-02 03:00:00, so i set it on 2020-12-03 00:00:00 <br>
 <br>
 3. Login to PgAdmin that run on localhost:8085 <br>
 <br>
