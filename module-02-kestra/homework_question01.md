@@ -7,7 +7,10 @@ c. 364.7 MiB <br>
 d. 692.6 MiB <br>
 
 # Answer
-To answer this question, we need to execute 04_postgres_taxi.yaml with this input: <br>
+
+1. Run Kestra with Docker. Execute file docker-compose.yaml with command : docker-compose up -d
+2. Import file yaml 04_postgres_taxi.yaml to Kestra UI <br>
+3. Execute 04_postgres_taxi.yaml with this input: <br>
 <br>
 <p align="center">
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6b8b2ef7-f26a-462d-9aba-93fae419b0ae" /> </p>
@@ -15,6 +18,7 @@ To answer this question, we need to execute 04_postgres_taxi.yaml with this inpu
 After Execute, look on Output Tab > Tasks: Extract > Outputs: Output Files, we will see the yellow_tripdata_2020-12.csv files with file size <br>
 <br>
 <p align="center">
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2c3da7b1-3df3-4349-b258-de363ff0de48" /> </p>
+<img width="755" height="397" alt="image" src="https://github.com/user-attachments/assets/0c09e342-1f2f-431b-a56d-ed4f12e6c657" />
+</p>
 
 From the image above, we concluded that the file size is <b> 128.3 MiB (a) </b>
