@@ -11,14 +11,14 @@ d. 1,342,034 <br>
 <br>
 2. Go to Trigger Tab, and choose Execute Backfill button. <br>
 Use input below to execute the workflow  : <br>
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
+<img width="600" height="400" alt="image" align='center' src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
    <br>
 Notes for choosing the time for backfill input: <br>
 At workflow, i set the cron schedule "0 2 1 * *", so it will run every month at the first day on 02.00 a.m  <br>
 Because we need to run from Jan 2020 to Dec 2020, so...  <br>
 - the start time of backfill input should be set before 2020-01-01 02:00:00, so i set it on 2020-01-01 00:00:00
 - the end time of backfill input should be set after 2020-12-01 02:00:00, so i set it on 2020-12-03 00:00:00
-Then, click execute
+Then, click execute <br>
 <br>
 3. Login to PgAdmin that run on localhost:8085 <br>
 <br>
