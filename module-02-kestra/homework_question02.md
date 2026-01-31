@@ -12,7 +12,7 @@ d. green_tripdata_2020.csv <br>
 1. Run Kestra di Docker dengan file docker-compose.yaml
 2. Import file yaml 04_postgres_taxi.yaml ke Kestra
 3. Execute file yaml tersebut dengan input sebagai berikut
-   <img width="1509" height="786" alt="image" src="https://github.com/user-attachments/assets/ec70ff99-454d-4ba6-bc07-b4dc3de7b7a1" />
+   <img width="1603" height="765" alt="image" src="https://github.com/user-attachments/assets/cbee5c3b-655a-4453-b9cf-eda94135df15" />
 4. Setelah selesai tereksekusi, pilih tab Output > tasks: Extract > Outputs : outputFiles
    maka, akan terlihat gambar berikut
    <img width="905" height="444" alt="image" src="https://github.com/user-attachments/assets/79e9a541-5527-41bd-91d2-4d02dea54c6c" />
