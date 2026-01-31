@@ -11,6 +11,7 @@ d. 1,342,034 <br>
 <br>
 2. Go to Trigger Tab, and choose Execute Backfill button. <br>
 Use input below to execute the workflow  : <br>
+<br>
 <p align="center">
 <img width="600" height="400" alt="image" align='middle' src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
 </p>
@@ -25,7 +26,14 @@ Then, click execute <br>
 3. Login to PgAdmin that run on localhost:8085 <br>
 <br>
 4. Check whether the table contains data from january 2020 to december 2020 by using the query shown below: <br>
+<br>
+<p align="center">
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/5244b74a-5546-48bf-a237-ea591b57182b" />
+</p>
 <br>
 5. If all the data has been inserted to postgresql table, you can use query below to calculate the total rows inserted <br>
+<br>
+<p align="center">
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/02372e7b-944f-4bbd-acd2-a3f65cc30cbb" />
+</p>
+from image above, we found out that the Green Taxi data on year 2020 contains <b> 1,925,152 rows (b) </b>
