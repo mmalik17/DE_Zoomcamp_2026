@@ -36,4 +36,4 @@ Because we need to run from Jan 2020 to Dec 2020, so...  <br>
 <p align="center">
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/02372e7b-944f-4bbd-acd2-a3f65cc30cbb" />
 </p>
-from image above, we found out that the Green Taxi data on year 2020 contains <b> 1,925,152 rows (b) </b>
+from image above, we found out that the Green Taxi data on year 2020 contains <b> 1,734,051rows (c) </b>
