@@ -25,8 +25,12 @@ After:
     defaults: "2019"
 ```
 
-Then, we can execute by using this input:
-<img width="1555" height="883" alt="image" src="https://github.com/user-attachments/assets/8b7a29fa-e9b8-41eb-a5e3-0117df30a849" />
+Then, we can execute by using this input: <br>
+<img width="655" height="383" alt="image" src="https://github.com/user-attachments/assets/8b7a29fa-e9b8-41eb-a5e3-0117df30a849" />
+<br>
 
-OUTPUT :
-<img width="1502" height="648" alt="image" src="https://github.com/user-attachments/assets/76380f6a-76b3-449c-bca9-dde05a143782" />
+OUTPUT : <br>
+<img width="659" height="287" alt="image" src="https://github.com/user-attachments/assets/6d2b2443-0e62-4a90-aa79-bcd99a8471a8" />
+<br>
+
+From image above, we can conclude that the table has <b> 1,925,152 rows (c) </b>
