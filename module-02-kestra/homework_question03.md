@@ -13,7 +13,7 @@ d. 29,430,127 <br>
 INPUT :
 <img width="1243" height="594" alt="image" src="https://github.com/user-attachments/assets/e4023b56-3397-4e57-890e-ec0872b086df" />
 Notes for choosing the time for backfill input: <br>
-At workflow, i set the cron schedule to ............, so it will run every month at the first day on 02.00 a.m <br>
+At workflow, i set the cron schedule "0 2 1 * *", so it will run every month at the first day on 02.00 a.m <br>
 Because we need to run from Jan 2020 to Dec 2020, so... <br>
 - the start time of backfill input should be set before 2020-01-01 02:00:00, so i set it on 2020-01-01 00:00:00 <br>
 - the end time of backfill input should be set after 2020-12-01 02:00:00, so i set it on 2020-12-03 00:00:00 <br>
