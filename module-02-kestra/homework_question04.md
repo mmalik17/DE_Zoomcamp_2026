@@ -11,7 +11,7 @@ d. 1,342,034 <br>
 2. Go to Trigger Tab, and choose Execute Backfill button. <br>
 Use input below to execute the workflow  :
 <br>
-<img width="1091" height="613" alt="image" src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/4fb8bb6d-43cd-46de-90cc-c953c0504401" />
 Notes for choosing the time for backfill input: <br>
 At workflow, i set the cron schedule "0 2 1 * *", so it will run every month at the first day on 02.00 a.m  <br>
 Because we need to run from Jan 2020 to Dec 2020, so...  <br>
