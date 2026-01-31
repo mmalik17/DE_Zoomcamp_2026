@@ -28,7 +28,7 @@ Then, click execute <br>
 4. Check whether the table contains data from january 2020 to december 2020 by using the query shown below: <br>
 <br>
 <p align="center">
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5244b74a-5546-48bf-a237-ea591b57182b" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5244b74a-5546-48bf-a237-ea591b57182b" />
 </p>
 <br>
 5. If all the data has been inserted to postgresql table, you can use query below to calculate the total rows inserted <br>
