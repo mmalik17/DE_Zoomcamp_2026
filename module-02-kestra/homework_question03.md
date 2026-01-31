@@ -15,7 +15,7 @@ Notes for filling the backfill input:
 At workflow, i set the cron schedule to ............, so it will run every month at the first day on 02.00 a.m
 Because we need to run from Jan 2020 to Dec 2020, so...
 - the start time of backfill input should be set before 2020-01-01 02:00:00, so i set it on 2020-01-01 00:00:00
-- the end time of backfill input should be set after 2020-12-01 02:00:00, so i set it on 2020-12-01 03:00:00
+- the end time of backfill input should be set after 2020-12-01 02:00:00, so i set it on 2020-12-03 00:00:00
 Then, click execute
 
 CHECK WHETHER THE TABLE IS FILLED OR NOT
