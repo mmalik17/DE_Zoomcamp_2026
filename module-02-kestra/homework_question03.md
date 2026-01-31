@@ -12,7 +12,7 @@ d. 29,430,127 <br>
 2. Go to Trigger Tab, and choose Execute Backfill button. <br> Use input below to execute the workflow <br>
 <br>
 <p align="center">
-<img width="1243" height="594" alt="image" src="https://github.com/user-attachments/assets/e4023b56-3397-4e57-890e-ec0872b086df" /> </p>
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/e4023b56-3397-4e57-890e-ec0872b086df" /> </p>
 Notes for choosing the time for backfill input: <br>
 At workflow, i set the cron schedule "0 2 1 * *", so it will run every month at the first day on 02.00 a.m <br>
 Because we need to run from Jan 2020 to Dec 2020, so... <br>
@@ -30,7 +30,7 @@ Then, click execute <br>
 5. If the output is like above, you can use query below to calculate the total rows inserted <br>
 <br>
 <p align="center">
-<img width="1114" height="498" alt="image" src="https://github.com/user-attachments/assets/68490d2b-a818-4286-a97d-8d007c45eb6f" /> </p>
+<img width="810" height="308" alt="image" src="https://github.com/user-attachments/assets/68490d2b-a818-4286-a97d-8d007c45eb6f" /> </p>
 <br>
 from image above, we found out that the Yellow Taxi data on year 2020 contains <b> 24,648,499 rows (b) </b>
 
