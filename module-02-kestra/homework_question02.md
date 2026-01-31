@@ -9,11 +9,12 @@ d. green_tripdata_2020.csv <br>
 
 # Answer
 
-1. Run Kestra di Docker dengan file docker-compose.yaml
-2. Import file yaml 04_postgres_taxi.yaml ke Kestra
-3. Execute file yaml tersebut dengan input sebagai berikut
+1. Run Kestra with Docker. Execute file docker-compose.yaml with command docker-compose up -d
+2. Import file yaml 04_postgres_taxi.yaml to Kestra UI
+3. Execute that file yaml with the input below
+   <br>
    <img width="1603" height="765" alt="image" src="https://github.com/user-attachments/assets/cbee5c3b-655a-4453-b9cf-eda94135df15" />
-4. Setelah selesai tereksekusi, pilih tab Output > tasks: Extract > Outputs : outputFiles
-   maka, akan terlihat gambar berikut
+5. After execute, go to Output tab > tasks: Extract > Outputs : outputFiles. Then, it will see image like below
+   <br>
    <img width="905" height="444" alt="image" src="https://github.com/user-attachments/assets/79e9a541-5527-41bd-91d2-4d02dea54c6c" />
- 5. Maka, jawabannya adalah <b> (b) green_tripdata_2020-04.csv </b>
+ 6. So, the answer is <b> (b) green_tripdata_2020-04.csv </b>
