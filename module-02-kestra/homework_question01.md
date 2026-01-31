@@ -8,9 +8,13 @@ d. 692.6 MiB <br>
 
 # Answer
 To answer this question, we need to execute 04_postgres_taxi.yaml with this input: <br>
-<img width="1469" height="788" alt="image" src="https://github.com/user-attachments/assets/6b8b2ef7-f26a-462d-9aba-93fae419b0ae" />
+<br>
+<p align="center">
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6b8b2ef7-f26a-462d-9aba-93fae419b0ae" /> </p>
 
 After Execute, look on Output Tab > Tasks: Extract > Outputs: Output Files, we will see the yellow_tripdata_2020-12.csv files with file size <br>
-<img width="1527" height="760" alt="image" src="https://github.com/user-attachments/assets/2c3da7b1-3df3-4349-b258-de363ff0de48" />
+<br>
+<p align="center">
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2c3da7b1-3df3-4349-b258-de363ff0de48" /> </p>
 
 From the image above, we concluded that the file size is <b> 128.3 MiB (a) </b>
