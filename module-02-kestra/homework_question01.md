@@ -9,8 +9,9 @@ d. 692.6 MiB <br>
 # Answer
 
 1. Run Kestra with Docker. Execute file docker-compose.yaml with command : docker-compose up -d
-2. Import file yaml 04_postgres_taxi.yaml to Kestra UI <br>
-3. Execute 04_postgres_taxi.yaml with this input: <br>
+2. Access Kestra UI on http://localhost:8081 <br> (Notes: i change the port from 8080 to 8081 in my docker-compose.yaml, because my local docker version claim port 8080 for backend process, so i can't use localhost:8080)
+3. Import file yaml 04_postgres_taxi.yaml to Kestra UI <br>
+4. Execute 04_postgres_taxi.yaml with this input: <br>
 <br>
 <p align="center">
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/6b8b2ef7-f26a-462d-9aba-93fae419b0ae" /> </p>
