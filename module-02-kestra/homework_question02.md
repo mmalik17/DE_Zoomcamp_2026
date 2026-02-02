@@ -10,7 +10,7 @@ d. green_tripdata_2020.csv <br>
 # Answer
 
 1. Run Kestra with Docker. Execute file docker-compose.yaml with command docker-compose up -d
-2. Import file yaml 04_postgres_taxi.yaml to Kestra UI
+2. Import file yaml 04_postgres_taxi.yaml to Kestra UI that run on localhost:8081 <br> (Notes: i change the port from 8080 to 8081 in my docker-compose.yaml, because my local docker version claim port 8080 for backend process, so i can't use localhost:8080)
 3. Execute that file yaml with the input below
    <br>
    <img width="1603" height="765" alt="image" src="https://github.com/user-attachments/assets/cbee5c3b-655a-4453-b9cf-eda94135df15" />
