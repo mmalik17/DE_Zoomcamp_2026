@@ -19,3 +19,4 @@ Query to retrieve the PULocationID and DOLocationID columns: <br>
 ```sql
 select PULocationID, DOLocationID from zoomcamp-2026-486804.ny_taxi.yellow_tripdata_2024;
 ```
+The second query processed bytes 2 times more than the first query, because it scan two columns. BigQuery is a columnar database, so the bytes processed is inline with the number of columns queried. The answer is (a)
