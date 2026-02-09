@@ -19,6 +19,13 @@ Now, we can compare using the identical query, but reading from different table.
 ```sql
 SELECT COUNT(DISTINCT(PULocationID)) FROM zoomcamp-2026-486804.ny_taxi.external_yellow_tripdata_2024;
 ```
+The above query yields estimated cost of 0B. <br>
+
 ```sql
 SELECT COUNT(DISTINCT(PULocationID)) FROM zoomcamp-2026-486804.ny_taxi.yellow_tripdata_2024;
 ```
+The above query yields estimated cost of 155.12 MB. <br>
+
+so the answer is (b)
+
+
