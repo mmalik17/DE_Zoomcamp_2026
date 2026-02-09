@@ -8,3 +8,18 @@ c. 5.87 MB for non-partitioned table and 0 MB for the partitioned table <br>
 d. 310.31 MB for non-partitioned table and 285.64 MB for the partitioned table <br>
 
 # Answer
+-- Query for Basic Table
+```sql
+SELECT DISTINCT(VendorID) FROM `ny_taxi.yellow_tripdata_2024`
+WHERE DATE(tpep_dropoff_datetime) BETWEEN '2024-03-01' AND '2024-03-15';
+```
+The estimated bytes processed for this query is 310.24 MB <br>
+
+-- Query for Partitioned & Clustered Table
+```sql
+SELECT DISTINCT(VendorID) FROM `ny_taxi.yellow_tripdata_2024_partitioned_clustered`
+WHERE DATE(tpep_dropoff_datetime) BETWEEN '2024-03-01' AND '2024-03-15';
+```
+The estimated bytes processed for this query is 26.84 MB <br>
+
+so the answer is (b)
