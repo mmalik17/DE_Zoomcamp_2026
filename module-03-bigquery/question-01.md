@@ -8,12 +8,14 @@ d. 85,431,289 <br>
 # Answer
 STEP 1: Create external table that read data from Google Cloud Storage <br>
 ```sql
+CREATE OR REPLACE EXTERNAL TABLE
 zoomcamp-2026-486804.ny_taxi.external_yellow_tripdata_2024
 OPTIONS (
   format = 'PARQUET',
   uris = ['gs://nyc-tl-data-486804/ny_taxi_homework/yellow_tripdata_2024-*.parquet']
 );
 ```
+Notes: we create the table ny_taxi.external_yellow_tripdata_2024 that read the parquet file on directory 'gs://nyc-tl-data-486804/ny_taxi_homework/'
 
 STEP 2: Read the external table to count the rows <br>
 ```sql
