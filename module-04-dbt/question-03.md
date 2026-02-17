@@ -18,4 +18,5 @@ SELECT COUNT(*) as total_records
 FROM dbt_prod.fct_monthly_zone_revenue;
 
 ```
+There are 12,184 records count from fct_monthly_zone_revenue, s0
 the result is (c)
