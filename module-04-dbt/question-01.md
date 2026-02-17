@@ -9,4 +9,5 @@ d. int_trips_unioned, int_trips, and fct_trips <br>
 
 # Answer:
 
-
+If the parameter --select (or shorthand -s) is used after dbt run command and without any additional operators, DBT will exclusively run the specific model you have named.
+The specific model is int_trips_unioned, so the answer is (c)
