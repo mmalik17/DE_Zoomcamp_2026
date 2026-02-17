@@ -14,3 +14,18 @@ c. 22,998,722 <br>
 d. 44,112,187
 
 # Answer 
+
+Use this query tp count the record after filtering
+
+``` sql
+
+select 
+    count(*) as total_records,
+    count(distinct dispatching_base_num) as unique_bases,
+    min(pickup_datetime) as earliest_pickup,
+    max(pickup_datetime) as latest_pickup,
+    count(distinct pickup_datetime::date) as distinct_days
+from dbt_prod.stg_fhv_tripdata;
+```
+
+from query above, The answer is 43,244,693
