@@ -5,7 +5,7 @@ b. .bruin.yml and pipeline.yml (assets can be anywhere) <br>
 c. .bruin.yml and pipeline/ with pipeline.yml and assets/ <br>
 d. pipeline.yml and assets/ only <br>
 
-## Answer 
+### Answer 
 There are three structure that reshaped Bruin Pipeline, which are : <br>
 - .bruin.yml : Environment & connection configuration (in root directory) <br>
 - pipeline.yml : Pipeline name, schedule, variables (in pipeline/ or root) <br>
@@ -20,7 +20,7 @@ b. replace - truncate and rebuild entirely <br>
 c. time_interval - incremental based on a time column <br>
 d. view - create a virtual table only <br>
 
-# Answer :
+### Answer :
 The strategy involve the the deletion and rebuilding based on time column, so the answer is time-interval (c)
 
 # Question 3 
@@ -58,5 +58,5 @@ b. --init <br>
 c. --full-refresh <br>
 d. --truncate <br>
 
-## Answer
+### Answer
 To create an entire new pipeline, the most appropriate answer is using <b> --full-refresh </b> command. --full-refresh will truncate and rebuild tables from scratch, so the answer is (c)
