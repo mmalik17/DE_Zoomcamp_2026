@@ -5,6 +5,14 @@ b. .bruin.yml and pipeline.yml (assets can be anywhere) <br>
 c. .bruin.yml and pipeline/ with pipeline.yml and assets/ <br>
 d. pipeline.yml and assets/ only <br>
 
+## Answer 
+There are three structure that reshaped Bruin Pipeline, which are : <br>
+- .bruin.yml : Environment & connection configuration (in root directory) <br>
+- pipeline.yml : Pipeline name, schedule, variables (in pipeline/ or root) <br>
+- assets/ : Folder containing asset files (SQL, Python, YAML) <br>
+
+The .bruin.yml must be on the root directory,  pipeline.yml must be on root or pipeline/ directory, while asset can be placed anywhere, so the answer is (b)
+
 # Question 2 
 Materialization Strategies. You're building a pipeline that processes NYC taxi data organized by month based on pickup_datetime. Which incremental strategy is best for processing a specific interval period by deleting and inserting data for that time period? (1 point) <br>
 a. append - always add new rows <br>
