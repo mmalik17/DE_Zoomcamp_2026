@@ -48,4 +48,4 @@ c. --full-refresh <br>
 d. --truncate <br>
 
 ## Answer
-To create an entire new pipeline, the most appropriate answer is using <b> --create </b> command, so the answer is (a)
+To create an entire new pipeline, the most appropriate answer is using <b> --full-refresh </b> command. --full-refresh will truncate and rebuild tables from scratch, so the answer is (c)
