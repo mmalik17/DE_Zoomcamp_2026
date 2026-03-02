@@ -35,7 +35,8 @@ Override the variable needs format like this: <br>
 bruin run --var 'key=value'
 <br> 
 In the question, the key is taxi_types, while the value is yellow, so the answer is <br> 
-bruin run --var 'taxi_types=["yellow"]'
+bruin run --var 'taxi_types=["yellow"]' <br>
+
 Single quotes are required so the shell doesn't interpret brackets, so the answer is (c)
 
 # Question 4 
@@ -46,6 +47,9 @@ c. bruin run pipeline/trips.py --recursive <br>
 d. bruin run --select ingestion.trips+ <br>
 
 ### Answer :
+To run the pipeline for the current asset and the downstream asset, we need to run the command that point to the current asset (trips.py) and the downstream (which is notated in + ), so the asnwer is <br>
+bruin run --select ingestion.trips+ <br>
+the answer is (d)
 
 # Question 5
 Quality Checks. You want to ensure the pickup_datetime column in your trips table never has NULL values. Which quality check should you add to your asset definition? (1 point) <br>
@@ -55,6 +59,9 @@ c. name: positive <br>
 d. name: accepted_values, value: [not_null] <br>
 
 ### Answer :
+To create requirement as there is no null valye, we need to define the asset as following:
+name : not_null,
+so the answer is (b)
 
 # Question 6 
 Lineage and Dependencies.  After building your pipeline, you want to visualize the dependency graph between assets. Which Bruin command should you use? (1 point) <br>
@@ -64,6 +71,7 @@ c. bruin lineage <br>
 d. bruin show <br>
 
 ### Answer :
+To visualize the depedencies, we need the command that view dependency graphs, which is "bruin lineage" so the answer is (c)
 
 # Question 7 
 First-Time RunYou're running a Bruin pipeline for the first time on a new DuckDB database. What flag should you use to ensure tables are created from scratch? (1 point) <br>
