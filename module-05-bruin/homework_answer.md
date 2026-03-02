@@ -20,6 +20,9 @@ b. replace - truncate and rebuild entirely <br>
 c. time_interval - incremental based on a time column <br>
 d. view - create a virtual table only <br>
 
+# Answer :
+The strategy involve the the deletion and rebuilding based on time column, so the answer is time-interval (c)
+
 # Question 3 
 Pipeline Variables. You have a variable defined in pipeline.yml:variables: taxi_types: type: array items: type: string default: ["yellow", "green"]How do you override this when running the pipeline to only process yellow taxis? (1 point) <br>
 a. bruin run --taxi-types yellow <br>
