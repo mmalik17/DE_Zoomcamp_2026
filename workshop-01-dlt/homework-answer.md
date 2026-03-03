@@ -26,6 +26,25 @@ d. 46.66% <br>
 
 ### Answer :
 
+The proportion (percentage) of trips that are paid with credit card, can be calculated by using Count, Group By, and windows function sum(count(*)) over(). Here is the query:
+
+```sql
+SELECT
+    payment_type,
+    COUNT(*) as count,
+    ROUND(COUNT(*) * 100.0 / SUM(COUNT(*)) OVER(), 2) as percentage
+FROM nyc_taxi.trips
+GROUP BY payment_type
+ORDER BY count DESC
+```
+
+**Breakdown:**
+1. **payment_type**: Column containing payment method (Credit, CASH, No Charge, Dispute)
+2. **COUNT(*)**: Counts the number of trips for each payment type
+3. **SUM(COUNT(*)) OVER()**: Window function that calculates total trips across all payment types
+4. **ROUND(..., 2)**: Rounds the percentage to 2 decimal places
+
+From the query results, we noted that among 10,000 trips, 2,666 of them were paid with credit card, so the precentage of using credit card is 2,666 / 10,0000 = 26.66%.
 
 # QUESTION 3
 What is the total amount of money generated in tips? (1 point)
