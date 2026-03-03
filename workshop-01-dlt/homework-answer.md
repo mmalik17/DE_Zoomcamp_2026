@@ -40,10 +40,10 @@ ORDER BY count DESC
 **SUM(COUNT(*)) OVER()** is a window function that calculates total trips across all payment types
 The ROUND(... ,2) query is used to limit the decimal only have 2 number behind comma
 
-From the query results, we noted that among 10,000 trips, 2,666 of them were paid with credit card, so the precentage of using credit card is 2,666 / 10,0000 = 26.66%.
+From the query results, we noted that among 10,000 trips, 2,666 of them were paid with credit card, so the precentage of using credit card is 2,666 / 10,0000 = 26.66%. (b)
 
 # QUESTION 3
-What is the total amount of money generated in tips? (1 point)
+What is the total amount of money generated in tips? (1 point) <br>
 a. $4,063.41 <br>
 b. $6,063.41 <br>
 c. $8,063.41 <br>
@@ -58,4 +58,4 @@ FROM nyc_taxi.trips
 ```
 The ROUND(... ,2) query is used to limit the decimal only have 2 number behind comma.
 
-from the query, we could infer that the number of money generated in tips are $6,063.41
+from the query, we could infer that the number of money generated in tips are $6,063.41 (b)
