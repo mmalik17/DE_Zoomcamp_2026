@@ -37,12 +37,8 @@ FROM nyc_taxi.trips
 GROUP BY payment_type
 ORDER BY count DESC
 ```
-
-**Breakdown:**
-1. **payment_type**: Column containing payment method (Credit, CASH, No Charge, Dispute)
-2. **COUNT(*)**: Counts the number of trips for each payment type
-3. **SUM(COUNT(*)) OVER()**: Window function that calculates total trips across all payment types
-4. **ROUND(..., 2)**: Rounds the percentage to 2 decimal places
+**SUM(COUNT(*)) OVER()** is a window function that calculates total trips across all payment types
+The ROUND(... ,2) query is used to limit the decimal only have 2 number behind comma
 
 From the query results, we noted that among 10,000 trips, 2,666 of them were paid with credit card, so the precentage of using credit card is 2,666 / 10,0000 = 26.66%.
 
@@ -53,5 +49,13 @@ b. $6,063.41 <br>
 c. $8,063.41 <br>
 d. $10,063.41 <br>
 
-
 ### Answer :
+
+The sum of money generated in tips can be calculated with SUM() aggregation query
+```sql
+SELECT ROUND(SUM(tip_amt), 2) as total_tips
+FROM nyc_taxi.trips
+```
+The ROUND(... ,2) query is used to limit the decimal only have 2 number behind comma.
+
+from the query, we could infer that the number of money generated in tips are $6,063.41
