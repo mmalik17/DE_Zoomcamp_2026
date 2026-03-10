@@ -4,5 +4,7 @@ This Module 06 contains two sub-directory, which are:
 The directory that contains homework jupyter notebook file and its supporting dataset.
 <br>
 <br>
-## <b> The personal_spark_project directory: </b> This directory contains my personal Spark project, which the material is learned from zoomcamp course. The data pipeline for this personal project could be seen on the image below:
+## <b> The personal_spark_project directory: </b> 
+
+This directory contains my personal Spark project, which the material is learned from zoomcamp course. The data pipeline for this personal project could be seen on the image below:
 
