@@ -13,7 +13,9 @@ Spark UI documentation: <br>
 ![Spark Job UI - DAG](https://github.com/user-attachments/assets/32dc4618-baa8-469f-baeb-593d021587fe)
 
 <p align="left">
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/57a44188-6fc3-4d03-bb9a-04e3020821be" /> </p>
+<img width="400" height="280" alt="image" src="https://github.com/user-attachments/assets/57a44188-6fc3-4d03-bb9a-04e3020821be" /> </p>
+<p align="right">
+<img width="400" height="280" alt="image" src="https://github.com/user-attachments/assets/32dc4618-baa8-469f-baeb-593d021587fe" /> </p>
 
 Google BigQuery documentation: <br>
 <br>
