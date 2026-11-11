@@ -8,7 +8,9 @@ An end-to-end batch data pipeline that ingests NYC taxi trip data, transforms it
 
 ## 📌 Project Overview
 
-NYC publishes millions of taxi trip records every month as raw Parquet files. Raw files are hard to query and analyze directly, so this project builds an automated pipeline that turns them into clean, query-ready tables in a cloud data warehouse.
+New York City's taxi system is one of the busiest urban transport networks in the world, and the NYC Taxi & Limousine Commission (TLC) publishes detailed trip records for it. Each record captures pickup and drop-off times and locations, trip distance, fare, tip, and payment type. For a transport operator, city planner, or ride-hailing business, this data helps answer questions such as when and where demand is highest, how fares and tips vary across zones and times of day, and how trip patterns change over time. 
+
+In its raw form, though, the data is a large set of Parquet files that is hard to query and analyze. This project turns it into clean, structured tables in a data warehouse, so the business questions above can be answered with simple SQL queries and dashboards. The final result is a set of cleaned, analysis-ready data mart tables in Google BigQuery that can be queried directly for insights such as demand patterns, fare trends, and payment behavior.
 
 **Goals**
 - Ingest NYC taxi trip data from the public source into a Spark DataFrame
