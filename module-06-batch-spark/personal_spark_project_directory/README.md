@@ -17,6 +17,10 @@ In its raw form, though, the data is a large set of Parquet files that is hard t
 - Clean and transform the data using Spark SQL
 - Load the transformed data into BigQuery for analytics and reporting
 
+## 🏗️ Architecture and Tools Required
+
+### Architecture
+
 **Pipeline flow**
 
 ```
@@ -26,10 +30,6 @@ NYC TAXI WEB (source) ──► INGEST (Spark DataFrame) ──► TRANSFORM (Sp
 ![Data Pipeline Spark Zoomcamp](https://github.com/user-attachments/assets/f177a474-bd38-43ae-bb07-f5b0962b8c09)
 
 ---
-
-## 🏗️ Architecture and Tools Required
-
-### Architecture
 
 | Stage | Description |
 |-------|-------------|
